@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ai-ml-e:
+    build: .
+    image: ai-ml-e
+    volumes:
+      - ./:/ai-ml-experiments
+    ports:
+      - "8888:8888"
+    working_dir: /ai-ml-experiments
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root
