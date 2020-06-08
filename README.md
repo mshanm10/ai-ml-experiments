@@ -29,7 +29,6 @@ Now copy and paste the url printed at the terminal in your browser.
 
 Congrats! You are ready to practice Machine Learning and AI.
 
---test-1-
 
 
 
